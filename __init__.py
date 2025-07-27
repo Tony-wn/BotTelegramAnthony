@@ -5,7 +5,7 @@ import os
 import azure.functions as func
 
 #Cargar variables
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+TELEGRAM_TOKEN = os.getenv('8486169769:AAH6_cqWB-Ocf76RkdtT47Xwn4j3sXex4pQ')
 AZURE_OPENAI_API_KEY = os.getenv('AZURE_OPENAI_API_KEY')
 AZURE_OPENAI_ENDPOINT = os.getenv('AZURE_OPENAI_ENDPOINT')
 
