@@ -6,8 +6,8 @@ import azure.functions as func
 
 #Cargar variables
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
-AZURE_OPENAI_API_KEY = os.environ('AZURE_OPENAI_API_KEY')
-AZURE_OPENAI_ENDPOINT = os.environ('AZURE_OPENAI_ENDPOINT')
+AZURE_OPENAI_API_KEY = os.getenv('AZURE_OPENAI_API_KEY')
+AZURE_OPENAI_ENDPOINT = os.getenv('AZURE_OPENAI_ENDPOINT')
 
 #Telegram API URL
 TELEGRAM_API_URL = f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage'
